@@ -1,8 +1,9 @@
 import React from 'react'
+import SelectBar from './Select-bar'
 
 const Home =()=>(
   <div>
-    <h1>hola</h1>
+   <SelectBar/>
   </div>
 )
 export default Home
