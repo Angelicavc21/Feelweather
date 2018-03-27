@@ -5,13 +5,13 @@ import Home from './Home'
 import About from './About'
 const App = () => (
   <Router>
-    <div>
-      <ul className="route">
-        <li>
-          <NavLink to="/reto-clima">Ahora</NavLink>
+    <div className="list">
+      <ul className="route container-fluid">
+        <li className="col-5  text-center">
+          <NavLink to="/reto-clima">AHORA</NavLink>
         </li>
-        <li>
-          <NavLink to="/diario">Diario</NavLink>
+        <li className="col-5 text-center">
+          <NavLink to="/diario">DIARIO</NavLink>
         </li>
       </ul>
     <hr />

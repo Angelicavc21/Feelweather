@@ -1,8 +1,46 @@
+body{
+  height: 100vh;
+  font-family: 'Roboto', sans-serif;
+  background:linear-gradient(rgba(87, 84, 84, 0.5), rgba(87, 74, 74, 0.5)),url('../assets/images/FONDO.png');
+  background-position: center center;	  
+  background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+.route{
+  background: rgba( 47, 128, 237, 0.57);
+  margin:0px;
+}
 .route li {
   display: inline-block;
   list-style: none;
   margin: 15px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: Left;
+  color: #F2F2F2
 }
 a{
   text-decoration: none;
+}
+.div-select{
+  margin-top:15px;
+  padding: 20px;
+  background: rgba(47, 128, 237, 0.5)
+}
+.div-select h5{
+  color: #fff;
+  font-size: 15px;
+}
+ hr {
+  margin:0px;
+}
+.route li a {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: Left;
+  color: #F2F2F2;
+ text-decoration: none;
 }
