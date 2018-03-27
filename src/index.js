@@ -14,6 +14,6 @@ ReactDOM.render(
 , document.getElementById('root'));
 
 
-/* firebase.auth().onAuthStateChanged((user) => {
+ firebase.auth().onAuthStateChanged((user) => {
   if (user) {   store.dispatch(login(user.uid));}
-}); */
+}); 
