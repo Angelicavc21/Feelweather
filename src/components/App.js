@@ -1,11 +1,24 @@
 import React from 'react';
-import Login from './Login'
-import Header from './Header';
+import { BrowserRouter as Router, Route, NavLink } from "react-router-dom";
+import '../style/main.css'
+import Home from './Home'
+import About from './About'
 const App = () => (
-  <div>
-    <h1 >App del clima</h1>
-    <Login/>
-    <Header/>
-</div>
+  <Router>
+    <div>
+      <ul className="route">
+        <li>
+          <NavLink to="/reto-clima">Ahora</NavLink>
+        </li>
+        <li>
+          <NavLink to="/diario">Diario</NavLink>
+        </li>
+      </ul>
+    <hr />
+      <Route exact path="/reto-clima" component={Home} />
+      <Route path="/diario" component={About} />
+    </div>
+  </Router>
+
 )
 export default App;
