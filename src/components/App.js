@@ -1,4 +1,5 @@
 import React from 'react';
+
 import { BrowserRouter as Router, Route, NavLink } from "react-router-dom";
 import '../style/main.css'
 import Home from './Home'
@@ -19,5 +20,6 @@ const App = () => (
       <Route path="/diario" component={About} />
     </div>
   </Router>
+
 )
 export default App;
