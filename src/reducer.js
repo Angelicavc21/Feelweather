@@ -1,12 +1,12 @@
-const reducer= (state={
-  user:null
-},action)=>{
+const reducer= (state={},action)=>{
   switch (action.type){
-    case 'LOGIN_IN':
+    case 'LOGIN':
     return{
-      ...state,
-      user:'logueado'
-    }
+      //...state,
+      uid:action.uid
+    };
+    case 'LOGOUT':
+    return{}
     default:
       return state;
   }
