@@ -1,6 +1,6 @@
 import React from 'react'
 const SelectBar =()=>(
-  <select class="custom-select">
+  <select className="custom-select">
   <option selected>Open this select menu</option>
   <option value="1">One</option>
   <option value="2">Two</option>
