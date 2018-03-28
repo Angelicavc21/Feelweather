@@ -48,6 +48,11 @@
                 <img className="mb-4 img-fluid" src={logoclimablanco} alt="" width="200" height="200"/>
               </div>
               <div className="text-center mb-4">
+                <button className="btn-register" value="Inicia sesión con"onClick={this.handleLogin}>
+              Registrate con <span className="fab fa-google"></span>
+                </button>
+              </div> 
+              <div className="text-center mb-4">
                 <button className="btnsign" value="Inicia sesión con"onClick={this.handleLogin}>
               Inicia sesión con <span className="fab fa-google"></span>
                 </button>

@@ -26,6 +26,16 @@ body{
   font-size: 20px;
   line-height: 23px;
  }
+ .btn-register{
+  background-color:   rgba(47, 128, 237, 0.64);
+  border-radius: 10px;
+  border: 1px solid rgba(47, 128, 237, 0.64);
+  padding-right: 25px;
+  padding-left: 25px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  color:#F2F2F2;
+ }
  .btnsign{
   background-color:   rgba(47, 128, 237, 0.64);
   border-radius: 10px;
