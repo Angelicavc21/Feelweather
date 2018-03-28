@@ -7,6 +7,7 @@ body{
   background-repeat: no-repeat;
 	background-attachment: fixed;
   background-size: cover;
+  color:#ffff;
 
 }
 .body-app{
@@ -64,19 +65,14 @@ body{
 .form-search{
   width:200px;
 }
-/* @media (min-width: 768px){
-  .nav-search{
-    width:700px;
-    padding-left:25px;
-    padding-right: 25px;
-  }
-  .search{
-    width: 70%;
+ @media (min-width: 768px){
+  .form-search{
+    width:auto;
   }
 } 
 .nav-header{
   width: 100%;
-}*/
+}
 /*Fin estilos*/
 .route li {
   display: inline-block;
