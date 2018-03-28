@@ -35,10 +35,14 @@
     renderSignInBtn(){
       if(this.state.user){
         return(
-        <Header
+        <Home
          user={this.state.user}
          onLogin={this.handleLogin}
-         startLogout={this.handleLogout}/>        
+         startLogout={this.handleLogout}/>
+       /*  <Header
+         user={this.state.user}
+         onLogin={this.handleLogin}
+         startLogout={this.handleLogout}/>  */       
         )
       }else {
         return(
