@@ -14,10 +14,10 @@ body{
 .route li {
   display: inline-block;
   list-style: none;
-  margin: 15px;
+  margin: 15px 5px 0px 5px;
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 25px;
   text-align: Left;
   color: #F2F2F2
 }
@@ -27,7 +27,8 @@ a{
 .div-select{
   margin-top:15px;
   padding: 20px;
-  background: rgba(47, 128, 237, 0.5)
+  background: rgba(47, 128, 237, 0.5);
+  border-radius: 5px;
 }
 .div-select h5{
   color: #fff;
@@ -37,10 +38,73 @@ a{
   margin:0px;
 }
 .route li a {
+  display: inline-block;
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
   text-align: Left;
   color: #F2F2F2;
  text-decoration: none;
+ text-align: center;
+ width: 150px
+}
+.wheather{
+  color:#F2F2F2;
+}
+.icon-msj{
+  margin-top:25px;
+}
+.uv-hover{
+  border-radius: 5px;
+  background: #ffcd00;
+}
+.triangulo{
+  margin-left: 75px;
+  width: 0; 
+  height: 0; 
+  border-bottom: 20px solid #ffcd00;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent; 
+}
+li.list{
+  text-align: center;
+  list-style: none;
+  color:#fff;
+  line-height: 19px;
+  font-weight: 500;
+  font-size:14px;
+  padding: 5px 10px ;
+  border-bottom: 1px solid black
+}
+ul{
+  list-style: none;
+  margin-bottom: 0px;
+}
+.media-list{
+  padding: 15px 0px;
+}
+.icon-day{
+  width: 58px;
+}
+li.list span{
+  display: inline-block;
+  padding: 0px 4px;
+}
+@media screen and (min-width: 1200px){
+  .route li {
+    margin: 15px 15px 0px 15px;
+  }
+  .route li a {
+    width: 520px;
+  }
+  .icon-day{
+    width: 70px;
+  }
+  li.list{
+    font-size: 18px;
+  }
+  li.list span{
+    display: inline-block;
+    padding: 0px 150px;
+  }
 }

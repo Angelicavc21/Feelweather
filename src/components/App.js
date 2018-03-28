@@ -7,11 +7,11 @@ const App = () => (
   <Router>
     <div className="list">
       <ul className="route container-fluid">
-        <li className="col-5  text-center">
-          <NavLink to="/reto-clima">AHORA</NavLink>
+        <li  className=" col-5 text-center">
+          <NavLink activeStyle = {{borderBottom : ' 3px solid rgb(255, 205, 0)'}}  className="" to="/reto-clima">AHORA</NavLink>
         </li>
         <li className="col-5 text-center">
-          <NavLink to="/diario">DIARIO</NavLink>
+          <NavLink activeStyle = {{borderBottom : ' 3px solid rgb(255, 205, 0)'}} to="/diario">DIARIO</NavLink>
         </li>
       </ul>
     <hr />
