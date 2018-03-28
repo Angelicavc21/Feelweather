@@ -26,9 +26,9 @@ Feelweather es un app que examina las condiciones del clima y las compará com l
 
 ### Solo nos basamos en tres preguntas básicas
 
-1.¿Qué opinas del clima de la ciudad?
-2.¿Sueles revisar el clima de tu ciudad (temperatura, humedad, etc)?¿Dónde?¿Por qué?
-3.¿Te gustaría utilizar una app que te avise de que acuerdo a tu percepción del clima, te diga cómo estará el día?¿Cómo te lo imaginarias?
+- 1.¿Qué opinas del clima de la ciudad?
+- 2.¿Sueles revisar el clima de tu ciudad (temperatura, humedad, etc)?¿Dónde?¿Por qué?
+- 3.¿Te gustaría utilizar una app que te avise de que acuerdo a tu percepción del clima, te diga cómo estará el día?¿Cómo te lo imaginarias?
 
 
 - Usuario 1 (23 años):
@@ -38,7 +38,7 @@ Feelweather es un app que examina las condiciones del clima y las compará com l
    - "Una aplicación del clima no me serviría, porque no lo uso..." " Tal vez si viajara o en provincia(sierra) porque ahi en la mañana hace sol y a veces llueve en la tarde".
    - "Que me diga como sentiré tal día no me interesa, más tal vez si me da consejos o recomendaciones personalizadas, pero no usaria una app del clima como te dije".
 
--  Usuario 2 ( años):
+-  Usuario 2 ( 22 años):
 
    - "Bueno es variable y predecible."
    - "Realmente no, y si lo hago es porque google me brinda la facilidad para ver y lo hago curiosidad"
