@@ -2,7 +2,7 @@
   import firebase from 'firebase'
   import Header from './Header'
   import Home from './Home'
-
+  import logoclimablanco from '../assets/brand/logoclimablanco.png'
 
   class SignIn extends Component{
     constructor(){
@@ -37,23 +37,32 @@
         return(
         <Header
          user={this.state.user}
+         onLogin={this.handleLogin}
          startLogout={this.handleLogout}/>
         
         )
       }else {
-        return(<div className="col-lg-12 text-cente">
-        <input type="button" value="Login with Googlre" onClick={this.handleLogin} />
-      </div>)
+        return(
+          <div className="body-app">
+            <div className="form-signin">
+              <div className="text-center mb-4">
+                <img className="mb-4 img-fluid" src={logoclimablanco} alt="" width="200" height="200"/>
+              </div>
+              <div className="text-center mb-4">
+                <button className="btnsign" value="Inicia sesión con"onClick={this.handleLogin}>
+              Inicia sesión con <span className="fab fa-google"></span>
+                </button>
+              </div> 
+            </div>
+          </div>      
+        )
       }
     }
     render(){
       return(
-        <div className="container">
-    <div className="row">
-    {this.renderSignInBtn()}
-      
-    </div>
-  </div> 
+        <div>
+          {this.renderSignInBtn()}
+        </div>   
       )
     }
   }
