@@ -3,7 +3,10 @@ import { BrowserRouter as Router, Route, NavLink } from "react-router-dom";
 import '../style/main.css'
 import Home from './Home'
 import About from './About'
+import SignIn from './SignIn';
 const App = () => (
+  <div>
+  <SignIn/>
   <Router>
     <div className="list">
       <ul className="route container-fluid">
@@ -19,6 +22,7 @@ const App = () => (
       <Route path="/diario" component={About} />
     </div>
   </Router>
+  </div>
 
 )
 export default App;
