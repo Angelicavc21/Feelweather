@@ -5,10 +5,10 @@ import Header from './Header'
 
 const Home =({user,onLogin,startLogout})=>(
   <div>
-   <Header 
+  {/*  <Header 
       user={user}
       onLogin={onLogin}
-      startLogout={startLogout}/> 
+      startLogout={startLogout}/>  */}
    <SelectBar/>
    <Main/>
   </div>

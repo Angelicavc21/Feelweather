@@ -1,8 +1,11 @@
   import React, {Component} from 'react'
   import firebase from 'firebase'
   import Header from './Header'
-  import Home from './Home'
   import logoclimablanco from '../assets/brand/logoclimablanco.png'
+  import { BrowserRouter as Router, Route, NavLink } from "react-router-dom";
+  import '../style/main.css'
+  import Home from './Home'
+  import About from './About'
 
   class SignIn extends Component{
     constructor(){
@@ -18,7 +21,7 @@
       firebase.auth().onAuthStateChanged(user => {
         this.setState({ user })
       })
-      firebase.database().ref('clima').on('child_addedd',snapshot =>)
+      //firebase.database().ref('clima').on('child_addedd',snapshot =>)
     }
 
     handleLogin(){
@@ -36,14 +39,28 @@
     renderSignInBtn(){
       if(this.state.user){
         return(
-        <Home
+          <div>
+            <Header
          user={this.state.user}
          onLogin={this.handleLogin}
-         startLogout={this.handleLogout}/>
-       /*  <Header
-         user={this.state.user}
-         onLogin={this.handleLogin}
-         startLogout={this.handleLogout}/>  */       
+         startLogout={this.handleLogout}/> 
+          <Router>
+    <div className="list">
+      <ul className="route container-fluid">
+        <li  className=" col-5 text-center">
+          <NavLink activeStyle = {{borderBottom : ' 3px solid rgb(255, 205, 0)'}}  className="" to="/reto-clima">AHORA</NavLink>
+        </li>
+        <li className="col-5 text-center">
+          <NavLink activeStyle = {{borderBottom : ' 3px solid rgb(255, 205, 0)'}} to="/diario">DIARIO</NavLink>
+        </li>
+      </ul>
+    <hr />
+      <Route exact path="/reto-clima" component={Home} />
+      <Route path="/diario" component={About} />
+    </div>
+  </Router>
+          </div>
+                
         )
       }else {
         return(
