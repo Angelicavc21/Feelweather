@@ -34,6 +34,39 @@ body{
   color:#F2F2F2;
 
 }
+.btn-logout{
+  background-color: transparent;
+  color:#ffff;
+ 
+}
+.btn-search{
+  background-color: transparent;
+  color:#ffff;
+  border:1px solid #ffff;
+}
+.search{
+  width:70%;
+}
+.navbar-right{
+  margin-right: 0;
+  margin-left: auto;
+}
+.form-search{
+  width:200px;
+}
+/* @media (min-width: 768px){
+  .nav-search{
+    width:700px;
+    padding-left:25px;
+    padding-right: 25px;
+  }
+  .search{
+    width: 70%;
+  }
+} 
+.nav-header{
+  width: 100%;
+}*/
 /*Fin estilos*/
 .route li {
   display: inline-block;

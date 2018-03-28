@@ -38,8 +38,7 @@
         <Header
          user={this.state.user}
          onLogin={this.handleLogin}
-         startLogout={this.handleLogout}/>
-        
+         startLogout={this.handleLogout}/>        
         )
       }else {
         return(
