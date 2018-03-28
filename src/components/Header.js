@@ -2,7 +2,7 @@ import React from 'react';
 import {connect} from 'react-redux';
 import {startLogout} from '../actions';
 
-const Header =({startLogout})=>(
+const Header =({user,startLogout})=>(
   <header>
     <nav>
     <button className="btn btn-outline-success my-2 my-sm-0" type="submit">LogOut</button>
