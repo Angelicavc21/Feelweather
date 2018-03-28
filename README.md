@@ -101,7 +101,9 @@ Feelweather es un app que examina las condiciones del clima y las compará com l
     - " En cuestion de diseño se ve bien..."
 
  **Usuario 2 (25 años)**
+ 
     - "Me parece chevere que la aplicación quiera o de a entender que se preocupe por mi, sin embargo no creo que realmente pueda cumplir con ello, porque todos sentimos diferente"
+
     - "Me gusta el flujo, me parece que es muy claro, recomiendo que sea mas personalizado"
 
 ### VI. Prototipado: Interfaz de Alta fidelidad (Marvel y Figma)
