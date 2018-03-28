@@ -18,10 +18,10 @@ const Header =({user,onLogin,startLogout})=>(
         <input className="form-control search" type="search" placeholder="Search" aria-label="Search"/>
         <button className="btn btn-search" type="submit"><i className="fas fa-search"></i></button>
       </form>
-      {/* <ul className="navbar-nav flex-row ml-md-auto d-none d-md-flex ">
+       <ul className="navbar-nav flex-row ml-md-auto d-none d-md-flex ">
         <li className="nav-item"><img width="32" className="rounded-circle"src={user.photoURL}/></li>
         <li className="nav-item">{user.displayName}</li>
-      </ul> */}
+      </ul> 
       <button className="btn btn-logout my-2 my-sm-0" type="submit" onClick={startLogout}><i className="fas fa-ellipsis-v"></i></button>
     </nav>
   </header>
