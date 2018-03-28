@@ -6,11 +6,10 @@ import store from './store';
 import {firebase} from './firebase';
 import {login} from './actions';
 
-ReactDOM.render(
+ReactDOM.render(  
   <Provider store={store}>
-    <App />
+    <App/>
   </Provider>
-
 , document.getElementById('root'));
 
 
