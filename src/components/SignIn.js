@@ -18,6 +18,7 @@
       firebase.auth().onAuthStateChanged(user => {
         this.setState({ user })
       })
+      firebase.database().ref('clima').on('child_addedd',snapshot =>)
     }
 
     handleLogin(){
