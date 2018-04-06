@@ -12,10 +12,15 @@
 + Otero, Nataly
 
 ***
+# FEELWEATHER
+
 ## Descripción
 Feelweather es un app que examina las condiciones del clima y las compará com la percepción individual del usuario, almacena dicha información, para luego relacionarlas con el pronóstico y mostrar cómo se sentirá el usuario ese día.
 
 ***
+
+ ![prototipo](src/assets/images/registro.png)
+ ![prototipo](src/assets/images/vistaprincipal.png)
 ## A. Etapa de Diseño de Experiencia de Usuario (UX)
 
 ### I. Descubrimiento e Investigación
