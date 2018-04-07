@@ -1,6 +1,6 @@
 # FEELWEATHER
 
-## Reto UX y frontend para Laboratoria
+## Reto UX y frontend
 
  ![prototipo](src/assets/images/registro.png)
  ![prototipo](src/assets/images/vistaprincipal.png)
