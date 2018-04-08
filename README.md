@@ -3,7 +3,6 @@
 Feelweather es un app que examina las condiciones del clima y las compará com la percepción individual del usuario, almacena dicha información, para luego relacionarlas con el pronóstico y mostrar cómo se sentirá el usuario ese día.
 
  ![prototipo](src/assets/images/registro.png)
- ![prototipo](src/assets/images/vistaprincipal.png)
  
 ***
 ## Reto UX y frontend
