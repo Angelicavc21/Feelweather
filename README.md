@@ -5,6 +5,10 @@ Feelweather es un app que examina las condiciones del clima y las compará com l
 ![registro](https://user-images.githubusercontent.com/30377942/38519942-f34ff112-3c06-11e8-901e-584868442a29.png)
 
 ***
+
+# Desarrollado para Laboratoria
+***
+
 ## Reto UX y frontend
 ## Equipo de trabajo
 
