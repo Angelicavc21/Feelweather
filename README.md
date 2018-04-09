@@ -61,7 +61,7 @@ Feelweather es un app que examina las condiciones del clima y las compará com l
 
 - Se elaboró un benchmarking de la apps sobre el clima existente. Esto nos permitió poder ver que estrategias digitales (diseño y funcionalidad) podíamos extraer y adaptarlas a nuestras app.
 
-- [Ver benchmarking aquí](https://docs.google.com/spreadsheets/d/1BN2OEfZwCfSR6qPNTuIXQGLki4gyJLtqUfoRHXnC7yI/edit#gid=0)
+- [Ver benchmarking aquí](https://docs.google.com/spreadsheets/d/1BN2OEfZwCfSR6qPNTuIXQGLki4gyJLtqUfoRHXnC7yI/)
 
 ### II. Ideación
 
