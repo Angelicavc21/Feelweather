@@ -6,7 +6,8 @@ Feelweather es un app que examina las condiciones del clima y las compará com l
 
 ***
 
-# Desarrollado para Laboratoria
+# Desarrollado para [Laboratoria](http://www.laboratoria.la/)
+
 ***
 
 ## Reto UX y frontend
